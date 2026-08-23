@@ -290,7 +290,147 @@
     </div>
 
   </section>
+<!-- AVIS CLIENTS -->
+<section class="reviews-section" id="avis">
 
+  <div class="section-heading reviews-heading">
+    <span class="small-title">AVIS CLIENTS</span>
+
+    <h2>
+      Votre avis <span>compte.</span>
+    </h2>
+
+    <p>
+      Vous avez fait appel à mes services ?
+      Partagez votre expérience en quelques secondes.
+    </p>
+  </div>
+
+  <div class="reviews-container">
+
+    <!-- AVIS EXISTANTS -->
+    <div class="reviews-list">
+
+      <!--
+      Exemple d'avis.
+      NE LES GARDE PAS comme de vrais avis :
+      remplace-les uniquement par de vrais avis clients.
+      -->
+
+      <article class="review-card">
+
+        <div class="review-top">
+          <div class="review-avatar">M</div>
+
+          <div>
+            <strong>Marie</strong>
+            <small>Cliente</small>
+          </div>
+
+          <div class="stars">
+            ★★★★★
+          </div>
+        </div>
+
+        <p>
+          Exemple d'avis client. Remplace ce texte par un véritable
+          avis reçu après une prestation.
+        </p>
+
+      </article>
+
+    </div>
+
+    <!-- FORMULAIRE AVIS -->
+    <div class="review-form-card">
+
+      <h3>Laisser un avis</h3>
+
+      <p class="review-form-intro">
+        Votre avis sera envoyé pour validation avant d'être publié.
+      </p>
+
+      <form
+        action="https://formspree.io/f/mqpzozgj"
+        method="POST"
+        class="review-form"
+      >
+
+        <label>
+          Votre prénom
+          <input
+            type="text"
+            name="prenom"
+            placeholder="Ex : Thomas"
+            required
+          >
+        </label>
+
+        <label>
+          Votre adresse e-mail
+          <input
+            type="email"
+            name="email"
+            placeholder="vous@exemple.fr"
+            required
+          >
+        </label>
+
+        <label>
+          Votre note
+        </label>
+
+        <div class="rating">
+
+          <input type="radio" id="star5" name="note" value="5" required>
+          <label for="star5">★</label>
+
+          <input type="radio" id="star4" name="note" value="4">
+          <label for="star4">★</label>
+
+          <input type="radio" id="star3" name="note" value="3">
+          <label for="star3">★</label>
+
+          <input type="radio" id="star2" name="note" value="2">
+          <label for="star2">★</label>
+
+          <input type="radio" id="star1" name="note" value="1">
+          <label for="star1">★</label>
+
+        </div>
+
+        <label>
+          Votre commentaire
+          <textarea
+            name="avis"
+            rows="5"
+            placeholder="Dites-nous ce que vous avez pensé de la prestation..."
+            required
+          ></textarea>
+        </label>
+
+        <input
+          type="hidden"
+          name="subject"
+          value="⭐ Nouvel avis client - Lavage de vitres"
+        >
+
+        <button type="submit">
+          Envoyer mon avis →
+        </button>
+
+        <small class="privacy-note">
+          Votre avis sera vérifié avant d'être publié.
+        </small>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+  
   <!-- CONTACT -->
   <section class="contact-section" id="contact">
 
